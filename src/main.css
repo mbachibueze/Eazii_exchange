@@ -60,7 +60,6 @@ button {
 body {
   background-color: #fff;
   color: var(--text-color);
-  overflow-X: hidden;
 
 }
 
@@ -85,7 +84,6 @@ a {
 .container {
   width: 1120px;
   margin-inline: 1.5rem;
-  overflow: hidden;
 }
 
 
