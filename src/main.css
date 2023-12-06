@@ -83,9 +83,8 @@ a {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  width: 100%;
+  width: 1120px;
   margin-inline: 1.5rem;
-  position: absolute;
 }
 
 
@@ -201,9 +200,8 @@ a {
 }
 
 @media screen and (max-width: 400px) {
-  .nav__menu {
-    border: 2px solid red;
-  }
+
+  
 }
 
 /*=============== SEARCH ===============*/
