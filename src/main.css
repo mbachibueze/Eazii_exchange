@@ -85,6 +85,7 @@ a {
 .container {
   width: 1120px;
   margin-inline: 1.5rem;
+  overflow: hidden;
 }
 
 
@@ -117,7 +118,7 @@ a {
 
 /*=============== HEADER & NAV ===============*/
 .header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -200,8 +201,9 @@ a {
 }
 
 @media screen and (max-width: 400px) {
-
-  
+  .nav__menu {
+    border: 2px solid red;
+  }
 }
 
 /*=============== SEARCH ===============*/
