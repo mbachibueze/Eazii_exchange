@@ -120,7 +120,7 @@ a {
 
 /*=============== HEADER & NAV ===============*/
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -202,11 +202,11 @@ a {
   top: 0;
 }
 
-@media screen and (max-width: 400px) {
+/* @media screen and (max-width: 400px) {
   .nav__menu {
-    border: 2px solid red;
+   
   }
-}
+} */
 
 /*=============== SEARCH ===============*/
 .search__form {
