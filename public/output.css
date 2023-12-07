@@ -631,6 +631,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -1186,6 +1190,7 @@ button {
 body {
   background-color: #fff;
   color: var(--text-color);
+  overflow: hidden;
 }
 
 input,

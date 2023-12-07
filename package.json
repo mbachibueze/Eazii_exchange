@@ -1,6 +1,7 @@
 {
-  "name": "tailwind-eazi",
+  "name": "new-eazi-work",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +10,5 @@
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.3.6"
-  },
-  "description": ""
+  }
 }
